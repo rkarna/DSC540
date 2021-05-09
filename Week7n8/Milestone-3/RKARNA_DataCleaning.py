@@ -31,6 +31,7 @@ print(data.iloc[:100,:]) #get the first 100 observations in a dataset (rows)
 print(data.iloc[:100,:100]) #get the first 100 rows * 100 columns
 print (data.loc[:,['REGION', 'YEAR']]) # Get the required columns
 
+
 #Drop data 
 print (data.drop([1, 3])) #drop the rows with index 1 and 3
 
